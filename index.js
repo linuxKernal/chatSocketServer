@@ -11,6 +11,7 @@ app.use(cors())
 app.use(express.json())
 app.use('/public', express.static(path.join(__dirname, 'static')))
 
+const PORT = process.env.PORT || 5000
 
 const clientID = {
     
@@ -157,4 +158,4 @@ io.on("connection", (socket) => {
 });
 
 
-http.listen(process.env.PORT || 5000,()=>console.log("server started..."));
+http.listen(PORT,()=>console.log(`server started PORT ${PORT} ...`));
