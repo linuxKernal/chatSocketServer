@@ -157,4 +157,4 @@ io.on("connection", (socket) => {
 });
 
 
-http.listen(5000,()=>console.log("server started..."));
+http.listen(process.env.PORT || 5000,()=>console.log("server started..."));
