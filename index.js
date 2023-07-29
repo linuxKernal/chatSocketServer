@@ -18,16 +18,6 @@ const clientID = {
 }
 
 const socketIO = {
-    "secret":{
-        admin:"simple",
-        password:"admin",
-        users:['one','two','three','simple']
-    },
-    "simple":{
-        admin:"simple",
-        password:"",
-        users:['apple','orange','mango','kivy']
-    },
     "winter":{
         admin:"simple",
         password:"admin",
