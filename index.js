@@ -19,9 +19,9 @@ const clientID = {
 
 const socketIO = {
     "winter":{
-        admin:"simple",
+        admin:"god of thunder",
         password:"admin",
-        users:['one','two','three','simple']
+        users:['peter endland','tom','nick','ram']
     }    
 }
 
